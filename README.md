@@ -14,6 +14,23 @@
 👉🏻 buildFeatures
 - viewBinding true
 - dataBinding true
+- compose true
+
+## How to use after clone this project
+- 해당 프로젝트 클론 후 깃을 초기화 해주세요
+```bash
+    rm -rf .git
+```
+
+- setting.gradle에서 rootProject.name을 변경해주세요
+```groovy
+    rootProject.name = "YourName"
+```
+
+- package name 을 변경해주세요
+
+- 자유롭게 사용하시면 됩니다.
+
 
 ## Dependency
 
